@@ -295,7 +295,7 @@
   
   /*---ACC---*/
   
-  /*---CART---*/
+  /*---M-CART---*/
 
   .cart_btn svg {
     width: 32px;
@@ -308,7 +308,7 @@
     fill: #E1E1E1;
   }
  
-  /*---CART---*/
+  /*---M-CART---*/
   
   /*---BANNER---*/
   .page_header_banner {
@@ -933,21 +933,37 @@ button:focus-visible{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    
     background-color: #F7F7F7;
+    
   
+  }
+   
+  .prod_photo_view_btn{
+    border: none;
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    background-color: rgba(42, 42, 42, 0.15);
+    text-align: center;
+    margin-top: 325px;
   }
 
   .prod_photo_view_btn a{
     top: 55%;
     text-decoration: none;
-    border: 1px solid grey;
+    border: none;
     font-size: 20px;
-    width: 30px;
     text-align: center;
-
+    color: black;
+    
   }
-  
+  .prod_photo_view_btn a:hover{
+    color: #F26376;
+  }
+
+  .prod_photo_view_btn a:active{
+    color: white;
+  }
   .product_pagination{
     display: inline-block;
     border: 1px solid #ddd;
@@ -978,6 +994,141 @@ button:focus-visible{
 
   /*---PROD---*/
   
+  /*---CAT---*/
+
+  .catalog{
+    margin: -50px auto 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+  }
+
+  .catalog_items{
+    border: 1px solid #ddd;
+    width: 1140px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background-color: white;
+    position: relative;
+  }
+  
+  .catalog_main{
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    margin-top: 65px;
+}
+    
+
+
+  .catalog_main:after {
+    content: "";
+    display: block;
+    width: 65px;
+    height: 2px;
+    background-color: #F16D7F;
+    top: 20%;
+    left: calc(50% - 35px);
+    position: absolute;
+  }
+
+  .catalog_paragraph{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+    text-align: center;
+    width: 100%;
+    margin: 50px auto 0px;
+  }
+
+  .catalog_info{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    
+    margin-top: 50px;
+    max-width: 550px;
+    margin: 50px auto 0px;
+
+  }
+  
+  .catalog_price{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px; 
+    color: #EF5B70;
+    margin: 30px auto 150px;
+  }
+
+  .catalog_price:after {
+    content: "";
+    display: block;
+    width: 640px;
+    height: 2px;
+    background-color: #5E5E5E;
+    margin: 65px 20px 0px;
+    position: absolute;
+    left: 230px;
+  }
+
+
+  .catalog_search{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  
+  .catalog_btn{
+    text-align: center;
+    margin: 0px 460px 20px;
+  }
+  .catalog_products{
+    
+    width: 1141px;
+    height: 600px;
+  }
+
+  /*---CAT---*/
+
+  /*---CART---*/
+
+   
+
+
+
+
+
+
+
+
+  /*---CART---*/
+
   /*---FEAT---*/
  
   .features {
