@@ -397,6 +397,12 @@
     display: flex;
     list-style: none;
   }
+
+  .page_header_breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
  
   .page_header_breadcrumb_in a{
     font-family: Lato;
@@ -538,6 +544,8 @@
   }
   
   .filter_list {
+    max-width: 300px;
+    width: 100%;
     display: none;
     list-style: none;
     margin: 0 0 0 0;
@@ -923,6 +931,8 @@ button:focus-visible{
     margin: 10px 0;
   }
 
+  
+
   .product_photo_main{
     width: 100%;
     max-height: 750px;
@@ -1100,14 +1110,28 @@ button:focus-visible{
     color: #6F6E6E;
     display: flex;
     width: 100%;
-    justify-content: center;
-    margin-bottom: 60px;
+    justify-content: start;
+    margin: 60px 70px;
   }
   
+  .in_product{
+    justify-content: center;
+    margin: 0 auto 55px;
+  }
+
   .catalog_btn{
     text-align: center;
     margin: 0px 460px 20px;
   }
+   
+  .catalog_btn svg{
+    fill: #EF5B70;
+  }
+  
+  .catalog_btn :hover{
+    text-decoration-color:  white;
+  }
+
   .catalog_products{
     
     width: 1141px;
@@ -1118,7 +1142,79 @@ button:focus-visible{
 
   /*---CART---*/
 
+   .cart{
+     width: 100%;
+     max-width: 1140px;
+     display: flex;
+     margin: 50px 230px;
+     justify-content: space-between;
+
+   }
+
+   .cart_cards{
+      display: block;
+      width: 100%;
+      max-width: 590px;
+   }
+
+   .cart_cards_items{
+     display: flex;
+     flex-direction: column;
+     list-style: none;
+     
+
+   }
+
+   .cart_cards_items_in{
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     border: 1px solid white;
+     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+     margin: 20px auto;
+
+   }
+
+   .cart_cards_items_img{
+     width: 260px;
+     height: 300px;
+   }
+
+   .cart_cards_items_text{
+     width: 100%;
+     max-width: 300px;
+     padding: 20px 30px;
+     align-items: center;
+
+   }
+
+   .cards_text{
+
+   }
+
+   .cards_text_h{
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+    font-weight: 400;
+    margin-bottom: 40px;
+   }
+
+   .cart_cards_btn{
+     
+     
+   }
+
+
+   .cart_form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+  }
+
    
+
 
 
 
