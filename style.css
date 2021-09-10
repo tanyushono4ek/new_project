@@ -1900,7 +1900,7 @@ button:focus-visible{
     margin: 7px 7px 7px 7px;
   }
 
-  .products_item:nth-child(3){
+  .catalog_item:nth-child(3n-1){
     display: none;
   }
 
